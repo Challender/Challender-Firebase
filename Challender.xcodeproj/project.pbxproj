@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F903E81E26C38A2D0014BDDD /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = F903E81D26C38A2D0014BDDD /* User.swift */; };
+		F903E82026C38A530014BDDD /* userViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F903E81F26C38A530014BDDD /* userViewModel.swift */; };
+		F903E82526C39BDE0014BDDD /* 1.png in Resources */ = {isa = PBXBuildFile; fileRef = F903E82426C39BDE0014BDDD /* 1.png */; };
 		F9BFAB9B26C18E4400E96443 /* ChallenderApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9BFAB9A26C18E4400E96443 /* ChallenderApp.swift */; };
 		F9BFAB9D26C18E4400E96443 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9BFAB9C26C18E4400E96443 /* ContentView.swift */; };
 		F9BFAB9F26C18E4500E96443 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F9BFAB9E26C18E4500E96443 /* Assets.xcassets */; };
@@ -41,6 +44,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		F903E81D26C38A2D0014BDDD /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		F903E81F26C38A530014BDDD /* userViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = userViewModel.swift; sourceTree = "<group>"; };
+		F903E82426C39BDE0014BDDD /* 1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 1.png; sourceTree = "<group>"; };
 		F9BFAB9726C18E4400E96443 /* Challender.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Challender.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F9BFAB9A26C18E4400E96443 /* ChallenderApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChallenderApp.swift; sourceTree = "<group>"; };
 		F9BFAB9C26C18E4400E96443 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -88,6 +94,22 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		F903E82126C38A750014BDDD /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				F903E81D26C38A2D0014BDDD /* User.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		F903E82326C38A850014BDDD /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				F903E81F26C38A530014BDDD /* userViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
 		F9BFAB8E26C18E4400E96443 = {
 			isa = PBXGroup;
 			children = (
@@ -111,6 +133,9 @@
 		F9BFAB9926C18E4400E96443 /* Challender */ = {
 			isa = PBXGroup;
 			children = (
+				F903E82426C39BDE0014BDDD /* 1.png */,
+				F903E82326C38A850014BDDD /* ViewModels */,
+				F903E82126C38A750014BDDD /* Models */,
 				F9BFAB9A26C18E4400E96443 /* ChallenderApp.swift */,
 				F9BFAB9C26C18E4400E96443 /* ContentView.swift */,
 				F9BFAB9E26C18E4500E96443 /* Assets.xcassets */,
@@ -263,6 +288,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				F9BFABA226C18E4500E96443 /* Preview Assets.xcassets in Resources */,
+				F903E82526C39BDE0014BDDD /* 1.png in Resources */,
 				F9BFAB9F26C18E4500E96443 /* Assets.xcassets in Resources */,
 				F9BFABC626C18EA000E96443 /* GoogleService-Info.plist in Resources */,
 			);
@@ -290,7 +316,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				F9BFAB9D26C18E4400E96443 /* ContentView.swift in Sources */,
+				F903E82026C38A530014BDDD /* userViewModel.swift in Sources */,
 				F9BFAB9B26C18E4400E96443 /* ChallenderApp.swift in Sources */,
+				F903E81E26C38A2D0014BDDD /* User.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
