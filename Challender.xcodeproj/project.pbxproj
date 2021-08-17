@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2A6DD47B26CC02FE00AFFEA1 /* cerfi_ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A6DD47A26CC02FE00AFFEA1 /* cerfi_ContentView.swift */; };
 		F9BFAB9B26C18E4400E96443 /* ChallenderApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9BFAB9A26C18E4400E96443 /* ChallenderApp.swift */; };
 		F9BFAB9D26C18E4400E96443 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9BFAB9C26C18E4400E96443 /* ContentView.swift */; };
 		F9BFAB9F26C18E4500E96443 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F9BFAB9E26C18E4500E96443 /* Assets.xcassets */; };
@@ -41,6 +42,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		2A6DD47A26CC02FE00AFFEA1 /* cerfi_ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = cerfi_ContentView.swift; sourceTree = "<group>"; };
 		F9BFAB9726C18E4400E96443 /* Challender.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Challender.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F9BFAB9A26C18E4400E96443 /* ChallenderApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChallenderApp.swift; sourceTree = "<group>"; };
 		F9BFAB9C26C18E4400E96443 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -88,6 +90,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2A6DD47926CC02CF00AFFEA1 /* certification */ = {
+			isa = PBXGroup;
+			children = (
+				2A6DD47A26CC02FE00AFFEA1 /* cerfi_ContentView.swift */,
+			);
+			path = certification;
+			sourceTree = "<group>";
+		};
 		F9BFAB8E26C18E4400E96443 = {
 			isa = PBXGroup;
 			children = (
@@ -111,6 +121,7 @@
 		F9BFAB9926C18E4400E96443 /* Challender */ = {
 			isa = PBXGroup;
 			children = (
+				2A6DD47926CC02CF00AFFEA1 /* certification */,
 				F9BFAB9A26C18E4400E96443 /* ChallenderApp.swift */,
 				F9BFAB9C26C18E4400E96443 /* ContentView.swift */,
 				F9BFAB9E26C18E4500E96443 /* Assets.xcassets */,
@@ -290,6 +301,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				F9BFAB9D26C18E4400E96443 /* ContentView.swift in Sources */,
+				2A6DD47B26CC02FE00AFFEA1 /* cerfi_ContentView.swift in Sources */,
 				F9BFAB9B26C18E4400E96443 /* ChallenderApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
